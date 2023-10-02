@@ -127,7 +127,7 @@ text_err_and_read = nil
 
 local res, hook = pcall(require, 'lib.samp.events')
 assert(res, 'Библиотека SAMP Event не найдена')
----------------------------------------------------
+----------------------------------------------------
 local res, imgui = pcall(require, 'imgui')
 assert(res, 'Библиотека Imgui не найдена')
 ---------------------------------------------------
